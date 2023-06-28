@@ -1,7 +1,6 @@
 package com.robohorse.robopojogenerator.delegates
 
 import com.intellij.ide.util.DirectoryUtil
-import com.intellij.ide.util.PackageUtil
 import com.intellij.openapi.command.WriteCommandAction
 import com.intellij.openapi.vfs.LocalFileSystem
 import com.intellij.psi.PsiDirectory
