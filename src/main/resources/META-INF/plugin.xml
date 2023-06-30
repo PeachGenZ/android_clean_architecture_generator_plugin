@@ -10,7 +10,10 @@
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <!-- uncomment to enable plugin in all products -->
-    <depends>com.intellij.modules.lang</depends>
+    <depends>org.jetbrains.android</depends>
+    <depends>org.jetbrains.kotlin</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
 
     <project-components>
         <component>
@@ -336,8 +339,8 @@
 
     <actions>
         <group id="MyPlugin.TopMenu"
-               text="Kaidee Plugin"
-               description="EddGa">
+               text="SCB TechX Plugin"
+               description="PeachGenZ">
             <add-to-group group-id="MainMenu" anchor="last"/>
 
             <action id="MultiDataModelsAction"
